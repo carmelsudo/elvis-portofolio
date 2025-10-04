@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio</title>
+    <link rel="stylesheet" href="elvis.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button type="button" class="close-nav-button d-lg-none d-xl-none" id="close-nav-button">
+            <span>⎯</span>
+            <span>⎯</span>
+            <span>⎯</span>
+        </button>
+    <header id="header-md">
+        <nav class="navbar flex-column-reverse">
+            <div class="d-flex w-100  gap-3 overflow-hidden text-capitalize fs-5">
+                <div class="userMode" id="userMode">
+                    <p class="switch"></p>
+                </div>
+                <span id="theme-label">clair</span>
+            </div>
+            <ul class="navbar-nav nav-ul">
+                <li class="nav-item active-section">
+                    <a href="#home" class="nav-link">
+                         <svg width="34px" height="34px" viewBox="0 0 24 24" fill="#3a86ff" ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g  stroke-linecap="round" stroke-linejoin="round"></g><path fill-rule="evenodd" clip-rule="evenodd" d="M2.5192 7.82274C2 8.77128 2 9.91549 2 12.2039V13.725C2 17.6258 2 19.5763 3.17157 20.7881C4.34315 22 6.22876 22 10 22H14C17.7712 22 19.6569 22 20.8284 20.7881C22 19.5763 22 17.6258 22 13.725V12.2039C22 9.91549 22 8.77128 21.4808 7.82274C20.9616 6.87421 20.0131 6.28551 18.116 5.10812L16.116 3.86687C14.1106 2.62229 13.1079 2 12 2C10.8921 2 9.88939 2.62229 7.88403 3.86687L5.88403 5.10813C3.98695 6.28551 3.0384 6.87421 2.5192 7.82274ZM9 17.25C8.58579 17.25 8.25 17.5858 8.25 18C8.25 18.4142 8.58579 18.75 9 18.75H15C15.4142 18.75 15.75 18.4142 15.75 18C15.75 17.5858 15.4142 17.25 15 17.25H9Z" 
+                            id="home-icon"></path>
+                        </svg>
+                        <span class="label">Acceuil</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#whoami" class="nav-link">
+                        <svg height="34px" width="34px"  aria-setsize="false" version="1.1" id="_x32_"   viewBox="0 0 512 512" xml:space="preserve" fill="currentColor" id="whoami-icon">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path class="st0" d="M458.159,404.216c-18.93-33.65-49.934-71.764-100.409-93.431c-28.868,20.196-63.938,32.087-101.745,32.087 c-37.828,0-72.898-11.89-101.767-32.087c-50.474,21.667-81.479,59.782-100.398,93.431C28.731,448.848,48.417,512,91.842,512 c43.426,0,164.164,0,164.164,0s120.726,0,164.153,0C463.583,512,483.269,448.848,458.159,404.216z"></path> <path class="st0" d="M256.005,300.641c74.144,0,134.231-60.108,134.231-134.242v-32.158C390.236,60.108,330.149,0,256.005,0 c-74.155,0-134.252,60.108-134.252,134.242V166.4C121.753,240.533,181.851,300.641,256.005,300.641z"></path> </g> </g>
+                        </svg>
+                       <span class="label"> Qui sui-je ?</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="nav-link">
+                        <svg width="34px" height="34px" viewBox="0 0 24 24"  fill="#fff" id="service-icon"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path fill="none" d="M0 0h24v24H0z"></path> <path d="M14.121 10.48a1 1 0 0 0-1.414 0l-.707.706a2 2 0 1 1-2.828-2.828l5.63-5.632a6.5 6.5 0 0 1 6.377 10.568l-2.108 2.135-4.95-4.95zM3.161 4.468a6.503 6.503 0 0 1 8.009-.938L7.757 6.944a4 4 0 0 0 5.513 5.794l.144-.137 4.243 4.242-4.243 4.243a2 2 0 0 1-2.828 0L3.16 13.66a6.5 6.5 0 0 1 0-9.192z"></path> </g> </g>
+                        </svg>
+                        <span class="label">Services</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#formation" class="nav-link">
+                        <svg fill="#fff" id="Capa_1"  xmlns:xlink="http://www.w3.org/1999/xlink" width="34px" height="34px" viewBox="0 0 97.056 97.056" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M86.021,43.476L49.929,57.239L13.838,43.675l-2.056,18.832c-0.096,0.774,0.175,1.549,0.732,2.095 c0.558,0.545,1.337,0.799,2.109,0.688c1.976-0.288,3.997-0.434,6.005-0.434c11.994,0,22.726,5.081,26.705,12.643 c0.432,0.822,1.284,1.336,2.212,1.336h0.766c0.928,0,1.78-0.514,2.212-1.335c3.98-7.562,14.711-12.643,26.703-12.643 c2.013,0,4.034,0.146,6.007,0.434c0.121,0.019,0.374,0.025,0.381,0.026c1.381,0,2.602-1.039,2.5-2.5 C88.1,62.602,86.021,43.476,86.021,43.476z"></path> <path d="M95.436,29.301L50.809,12.505c-0.568-0.214-1.193-0.214-1.762,0L4.306,29.345c-0.974,0.367-1.619,1.299-1.619,2.34V62.09 h5.609V35.441l40.752,15.337c0.568,0.214,1.192,0.214,1.762,0l44.627-16.797c0.974-0.367,1.619-1.299,1.619-2.34 S96.409,29.668,95.436,29.301z"></path> <path d="M0.014,81.949c-0.074,0.705,0.154,1.408,0.628,1.935C1.116,84.41,1.791,84.71,2.5,84.71h5.982 c0.708,0,1.384-0.301,1.858-0.827s0.703-1.229,0.628-1.935L9.335,66.445h-7.69L0.014,81.949z"></path> </g> </g> </g></svg>                        
+                        <span class="label">Formation</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" id="debug">
+                        <svg width="34px" height="34px" viewBox="-13.04 0 70.001 70.001" fill="white">
+                            <path id="exp-icon" d="m 792.32471,197.36188 c 7.54909,0 15.09819,0 22.64728,0 0,23.3335 0,46.6671 0,70.0006 -7.54909,0 -15.09819,0 -22.64728,0 0,-23.3335 0,-46.6671 0,-70.0006 z m 9.47068,50.7848 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9347 0,-5.902 z m 9.12754,0 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9347 0,-5.902 z m -9.12754,-8.9217 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9347 0,-5.902 z m 9.12754,0 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9347 0,-5.902 z m -9.12754,-9.0589 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9347 0,-5.902 z m 9.12754,0 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9347 0,-5.902 z m -9.12754,-9.1962 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9674 0,3.9347 0,5.9021 1.96734,0 3.93468,0 5.90202,0 0,-1.9674 0,-3.9347 0,-5.9021 z m 9.12754,0 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9674 0,3.9347 0,5.9021 1.96734,0 3.93468,0 5.90202,0 0,-1.9674 0,-3.9347 0,-5.9021 z m -9.12754,-9.0589 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9674 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9346 0,-5.902 z m 9.12754,0 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9674 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9346 0,-5.902 z m -9.12754,-8.9216 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9346 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9674 0,-3.9347 0,-5.902 z m 9.12754,0 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9346 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9674 0,-3.9347 0,-5.902 z m 6.72556,17.1863 c 0.89216,-0.026 1.78433,0.026 2.67649,0 0,-2.3889 0,-4.7777 0,-7.1666 1.09805,0 2.1961,0 3.29415,0 0,-2.3334 0,-4.6667 0,-7.0001 0.77779,0 1.55557,0 2.33336,0 0,-2.1961 0,-4.3922 0,-6.5883 0.68628,0 1.37256,0 2.05884,0 0,2.1961 0,4.3922 0,6.5883 0.77779,0 1.55557,0 2.33336,0 0,2.3334 0,4.6667 0,7.0001 1.09805,0 2.1961,0 3.29415,0 0,2.3889 0,4.7777 0,7.1666 0.86929,0 1.73858,0 2.60787,0 0,15.7388 0,31.4481 0,47.1868 -6.22255,0 -12.44509,0 -18.66763,0 0.0231,-15.7158 0.0463,-31.4709 0.0694,-47.1868 z m 9.12754,22.4807 c -2.0131,0 -4.02619,0 -6.03928,0 0,1.9674 0,3.9347 0,5.902 2.01309,0 4.02618,0 6.03928,0 0,-1.9673 0,-3.9346 0,-5.902 z m 7.00007,-9.3334 c -1.96734,0 -3.93468,0 -5.90202,0 0,1.9673 0,3.9347 0,5.902 1.96734,0 3.93468,0 5.90202,0 0,-1.9673 0,-3.9347 0,-5.902 z m -7.00007,-9.1962 c -2.0131,0 -4.02619,0 -6.03928,0 0,1.9674 0,3.9347 0,5.902 2.01309,0 4.02618,0 6.03928,0 0,-1.9673 0,-3.9346 0,-5.902 z"  transform="translate(-792.325 -197.362)"></path>
+                        </svg>
+                        <span class="label">Experience</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#commentaire" class="nav-link">
+                        <svg width="34px" height="34px" viewBox="0 0 32 32" version="1.1"  fill="white"><g transform="translate(-207.000000, -257.000000)">
+                             <path d="M231,273 C229.896,273 229,272.104 229,271 C229,269.896 229.896,269 231,269 C232.104,269 233,269.896 233,271 C233,272.104 232.104,273 231,273 L231,273 Z M223,273 C221.896,273 221,272.104 221,271 C221,269.896 221.896,269 223,269 C224.104,269 225,269.896 225,271 C225,272.104 224.104,273 223,273 L223,273 Z M215,273 C213.896,273 213,272.104 213,271 C213,269.896 213.896,269 215,269 C216.104,269 217,269.896 217,271 C217,272.104 216.104,273 215,273 L215,273 Z M223,257 C214.164,257 207,263.269 207,271 C207,275.419 209.345,279.354 213,281.919 L213,289 L220.009,284.747 C220.979,284.907 221.977,285 223,285 C231.836,285 239,278.732 239,271 C239,263.269 231.836,257 223,257 L223,257 Z" id="comment" sketch:type="MSShapeGroup"> </path> </g></svg>
+                        <span class="label">Commentaire</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <svg fill="#ffffff" width="34px" height="34px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M478.94,370.14c-5.22-5.56-23.65-22-57.53-43.75-34.13-21.94-59.3-35.62-66.52-38.81a3.83,3.83,0,0,0-3.92.49c-11.63,9.07-31.21,25.73-32.26,26.63-6.78,5.81-6.78,5.81-12.33,4-9.76-3.2-40.08-19.3-66.5-45.78s-43.35-57.55-46.55-67.3c-1.83-5.56-1.83-5.56,4-12.34.9-1.05,17.57-20.63,26.64-32.25a3.83,3.83,0,0,0,.49-3.92c-3.19-7.23-16.87-32.39-38.81-66.52-21.78-33.87-38.2-52.3-43.76-57.52A3.9,3.9,0,0,0,138,32.2,322.35,322.35,0,0,0,82,57.65,338,338,0,0,0,33.35,92a3.83,3.83,0,0,0-1.26,3.74c2.09,9.74,12.08,50.4,43.08,106.72,31.63,57.48,53.55,86.93,100,133.22S252,405.21,309.54,436.84c56.32,31,97,41,106.72,43.07a3.86,3.86,0,0,0,3.75-1.26A337.73,337.73,0,0,0,454.35,430a322.7,322.7,0,0,0,25.45-56A3.9,3.9,0,0,0,478.94,370.14Z"></path></g></svg>
+                       <span class="label">Contact</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- formulaire pour se connecter, laisser un message ou un commentaire -->
+<form class="form">
+    <div class="form-head d-flex justify-content-between">
+        <h4 class="color" style="text-align: center;">Connexion</h4>
+        <span id="close-form" style="cursor: pointer; color: black;">⤬</span>
+    </div>
+    <div class="flex-column">
+      <label>Email</label></div>
+      <div class="inputForm">
+        <svg height="20" viewBox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg"><g id="Layer_3" data-name="Layer 3"><path d="m30.853 13.87a15 15 0 0 0 -29.729 4.082 15.1 15.1 0 0 0 12.876 12.918 15.6 15.6 0 0 0 2.016.13 14.85 14.85 0 0 0 7.715-2.145 1 1 0 1 0 -1.031-1.711 13.007 13.007 0 1 1 5.458-6.529 2.149 2.149 0 0 1 -4.158-.759v-10.856a1 1 0 0 0 -2 0v1.726a8 8 0 1 0 .2 10.325 4.135 4.135 0 0 0 7.83.274 15.2 15.2 0 0 0 .823-7.455zm-14.853 8.13a6 6 0 1 1 6-6 6.006 6.006 0 0 1 -6 6z"></path></g></svg>
+        <input type="email" class="input" placeholder="Entrez votre Email" required>
+      </div>
+    
+    <div class="flex-column">
+      <label>Mot de passe</label></div>
+      <div class="inputForm">
+        <svg height="20" viewBox="-64 0 512 512" width="20" xmlns="http://www.w3.org/2000/svg"><path d="m336 512h-288c-26.453125 0-48-21.523438-48-48v-224c0-26.476562 21.546875-48 48-48h288c26.453125 0 48 21.523438 48 48v224c0 26.476562-21.546875 48-48 48zm-288-288c-8.8125 0-16 7.167969-16 16v224c0 8.832031 7.1875 16 16 16h288c8.8125 0 16-7.167969 16-16v-224c0-8.832031-7.1875-16-16-16zm0 0"></path><path d="m304 224c-8.832031 0-16-7.167969-16-16v-80c0-52.929688-43.070312-96-96-96s-96 43.070312-96 96v80c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16v-80c0-70.59375 57.40625-128 128-128s128 57.40625 128 128v80c0 8.832031-7.167969 16-16 16zm0 0"></path></svg>        
+        <input type="password" class="input" placeholder="Entrez votre mot de passe" required>
+        <svg viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"></path></svg>
+      </div>
+    
+    <div class="flex-row">
+      <div>
+      <input type="checkbox">
+      <label>Se rappeler de moi</label>
+      </div>
+    </div>
+    <button class="button-submit" id="button-submit">Se connecter</button>
+    </p><p class="p line">Se coonecter avec</p>
+    <div class="flex-row">
+      <button class="btn google">
+        <svg version="1.1" width="20" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+            <path style="fill:#FBBB00;" d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256
+                c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456
+                C103.821,274.792,107.225,292.797,113.47,309.408z"></path>
+            <path style="fill:#518EF8;" d="M507.527,208.176C510.467,223.662,512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451
+                c-12.462,58.683-45.025,109.925-90.134,146.187l-0.014-0.014l-73.044-3.727l-10.338-64.535
+                c29.932-17.554,53.324-45.025,65.646-77.911h-136.89V208.176h138.887L507.527,208.176L507.527,208.176z"></path>
+            <path style="fill:#28B446;" d="M416.253,455.624l0.014,0.014C372.396,490.901,316.666,512,256,512
+                c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91c21.619,57.698,77.278,98.771,142.53,98.771
+                c28.047,0,54.323-7.582,76.87-20.818L416.253,455.624z"></path>
+            <path style="fill:#F14336;" d="M419.404,58.936l-82.933,67.896c-23.335-14.586-50.919-23.012-80.471-23.012
+                c-66.729,0-123.429,42.957-143.965,102.724l-83.397-68.276h-0.014C71.23,56.123,157.06,0,256,0
+                C318.115,0,375.068,22.126,419.404,58.936z"></path>
+
+        </svg>
+        Google   
+      </button><button class="btn apple">
+    <svg version="1.1" height="20" width="20" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22.773 22.773" style="enable-background:new 0 0 22.773 22.773;" xml:space="preserve"> <g> <g> <path d="M15.769,0c0.053,0,0.106,0,0.162,0c0.13,1.606-0.483,2.806-1.228,3.675c-0.731,0.863-1.732,1.7-3.351,1.573 c-0.108-1.583,0.506-2.694,1.25-3.561C13.292,0.879,14.557,0.16,15.769,0z"></path> <path d="M20.67,16.716c0,0.016,0,0.03,0,0.045c-0.455,1.378-1.104,2.559-1.896,3.655c-0.723,0.995-1.609,2.334-3.191,2.334 c-1.367,0-2.275-0.879-3.676-0.903c-1.482-0.024-2.297,0.735-3.652,0.926c-0.155,0-0.31,0-0.462,0 c-0.995-0.144-1.798-0.932-2.383-1.642c-1.725-2.098-3.058-4.808-3.306-8.276c0-0.34,0-0.679,0-1.019 c0.105-2.482,1.311-4.5,2.914-5.478c0.846-0.52,2.009-0.963,3.304-0.765c0.555,0.086,1.122,0.276,1.619,0.464 c0.471,0.181,1.06,0.502,1.618,0.485c0.378-0.011,0.754-0.208,1.135-0.347c1.116-0.403,2.21-0.865,3.652-0.648 c1.733,0.262,2.963,1.032,3.723,2.22c-1.466,0.933-2.625,2.339-2.427,4.74C17.818,14.688,19.086,15.964,20.67,16.716z"></path> </g></g></svg>
+        Apple 
+</button></div></form>
+     <!-- fin du formulaire -->
+   
+    <main id="main">
+        <section class="landing-page d-flex justify-content-center align-items-center p-1" id="home">
+            <div class="container intro">
+                <div class="container user-name">
+                    <h1><p>salut je suis</p> <strong class="color josefin-sans">Elvis AGOSSOU</strong></h1>
+                    <p id="load-word" class="color"></p>
+                </div>
+                <div class="texte container">
+                    Je transforme chaque chiffre et chaque idée en opportunité concrète. Bienvenue sur mon portfolio : explorons ensemble mon aventure en tant qu’étudiant en gestion, où rigueur financière et créativité marketing se rencontrent pour bâtir l’entreprise de demain.</div>
+                <div class="social">
+                     <ul class="wrapper">
+                        <li class="icon facebook">
+                            <span class="tooltip">Facebook</span>
+                            <svg
+                            viewBox="0 0 320 512"
+                            height="1.2em"
+                            fill="currentColor"
+                            
+                            >
+                            <path
+                                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                            ></path>
+                            </svg>
+                        </li>
+                        <li class="icon twitter">
+                            <span class="tooltip">Twitter</span>
+                            <svg
+                            height="1.8em"
+                            fill="currentColor"
+                            viewBox="0 0 48 48"
+                            
+                            class="twitter"
+                            >
+                            <path
+                                d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"
+                            ></path>
+                            </svg>
+                        </li>
+                        <li class="icon instagram">
+                            <span class="tooltip">Instagram</span>
+                            <svg
+                            
+                            height="1.2em"
+                            fill="currentColor"
+                            class="bi bi-instagram"
+                            viewBox="0 0 16 16"
+                            >
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                            ></path>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button-cv">
+                    <a href="images/CV-DE-AGOSSOU-ELVIS.pdf" class="buttonDownload" download>Télécharger mon CV</a>
+                    <!-- From Uiverse.io by Creatlydev --> 
+                    <a href="images/CV-DE-AGOSSOU-ELVIS.pdf" class="voir-cv">
+                        <span class="button__icon-wrapper">
+                            <svg
+                            viewBox="0 0 14 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="button__icon-svg"
+                            width="10"
+                            >
+                            <path
+                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                fill="currentColor"
+                            ></path>
+                            </svg>
+
+                            <svg
+                            viewBox="0 0 14 15"
+                            fill="none"
+                            width="10"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="button__icon-svg button__icon-svg--copy"
+                            >
+                            <path
+                                d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                                fill="currentColor"
+                            ></path>
+                            </svg>
+                        </span>
+                        voir mon cv
+                    </a>
+
+                </div>
+            </div>
+            <div class="profil-img w-50">
+                <span class="back-layer"></span>
+               <img src="images/elvis-photo.png" alt="" srcset="">
+                <!-- icone d'arrière plan -->
+            <div class="comptable-container" id="comptableApp">
+                    <div class="comptable-subtitle"></div>
+                    <!-- Les icônes seront générées dynamiquement par JavaScript -->
+            </div>
+             <!-- icone -->
+            </div>
+        </section>
+   
+        <section id="whoami">
+            <i class="limiteur"></i>
+            <h1 class="title">A propos de moi</h1>
+            <div class="whoami">
+                <img src="images/elvis-photo.png">
+                <div class="intro2">
+                    <div>
+                        <h4 class="color">Qui suis-je</h4>
+                        <p>Étudiant en deuxième année de Comptabilité et Mercatique de Gestion à l’ENSET (École Normale Supérieure d’Enseignement Technique), je bénéficie d’une formation à la fois rigoureuse et concrète, qui allie théorie, méthodes et applications terrain. Cette double compétence en comptabilité et en marketing de gestion me permet d’appréhender les enjeux financiers et stratégiques des entreprises avec un regard global et pertinent. Chaque jour, je renforce cette expertise en mettant en pratique les concepts appris, que ce soit à travers des projets académiques, des études de cas ou des immersions en entreprise. Curieux, engagé et animé par une réelle volonté de comprendre les dynamiques économiques, je construis pas à pas un profil polyvalent, prêt à répondre aux défis du monde professionnel
+                        </p>
+                        <div id="whoami-div"></div>
+                    </div>
+                    
+                    <div class="competence">
+                           <div class="competence-box">
+                                <h4 class="color">Mes comptences</h4>
+                                <div class="comp">
+                                    <span> <img src="images/relation.svg" alt="" class="comp-icon">Sens du relationnel</span>
+                                    <span><img src="images/leadership-svgrepo-com.svg" alt="" class="comp-icon">Leadership</span>
+                                    <span><img src="images/loupe.svg" alt="" class="comp-icon">Sens de l'analyse</span>
+                                    <span><img src="images/time-svgrepo-com.svg" class="comp-icon" srcset="">Gestion efficace du temps</span>
+                                    <span><img src="images/change-svgrepo-com.svg" alt="" class="comp-icon">Adapatabilité</span>
+                                    <span><img src="images/folder-open-svgrepo-com.svg" alt="" class="comp-icon">Organisation</span>
+                            
+                                </div>
+                           </div>
+                            <div class="container  langue-box">
+                                <h4 class="color">Langues</h4>
+                                <div class="langue "> 
+                                   <div>
+                                        <svg viewBox="0 0 150 150">
+                                            <circle cx="75" cy="75" r="60" fill="none" stroke="#e0e0e0" stroke-width="10"/>
+                                            <circle cx="75" cy="75" r="60" fill="none" stroke="#007bff" stroke-width="10" 
+                                                class="progress-circle" stroke-linecap="round" 
+                                                stroke-dasharray="0 377" transform="rotate(-90 75 75)"  />
+                                        </svg>
+                                        <span>Francais</span>
+                                   </div>
+                                    <div>
+                                        <svg viewBox="0 0 150 150">
+                                            <circle cx="75" cy="75" r="60" fill="none" stroke="#e0e0e0" stroke-width="10"/>
+                                            <circle cx="75" cy="75" r="60" fill="none" stroke="#007bff" stroke-width="10" 
+                                                class="progress-circle" stroke-linecap="round" 
+                                                stroke-dasharray="0 377" transform="rotate(-90 75 75)" />
+                                        </svg>
+                                        <span>Anglais</span>
+                                    </div>
+                                   <div>
+                                         <svg viewBox="0 0 150 150">
+                                            <circle cx="75" cy="75" r="60" fill="none" stroke="#e0e0e0" stroke-width="10"/>
+                                            <circle cx="75" cy="75" r="60" fill="none" stroke="#007bff" stroke-width="10" 
+                                                class="progress-circle" stroke-linecap="round" 
+                                                stroke-dasharray="0 377" transform="rotate(-90 75 75)"/>
+                                        </svg>
+                                        <span>Fon</span>
+                                   </div>
+                                   <div>
+                                         <svg viewBox="0 0 150 150">
+                                            <circle cx="75" cy="75" r="60" fill="none" stroke="#e0e0e0" stroke-width="10"/>
+                                            <circle cx="75" cy="75" r="60" fill="none" stroke="#007bff" stroke-width="10" 
+                                                class="progress-circle" stroke-linecap="round" 
+                                                stroke-dasharray="0 377" transform="rotate(-90 75 75)" />
+                                        </svg>
+                                        <span>Goun</span>
+                                   </div>
+                                </div>
+                    </div>
+                        </div>
+                </div>
+               
+            </div>
+        </section>
+        <section id="service">
+            <i class="limiteur"></i>
+            <h1 class="title">Services</h1>
+            <p style="text-align: center;">Voici un recap des services que je propose</p>
+            <div class="d-flex justify-content-center flex-wrap service-container w-100 m-0 p-0">
+                <div class="service-card theme-selector theme-selector">
+                    <p class="card-title">Comptabilité générale</p>
+                    
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+                 
+                <div class="service-card theme-selector">
+                    <p class="card-title">Comptabilité des sociétés et analytique</p>
+                    
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+                <div class="service-card theme-selector">
+                    <p class="card-title">Developpement des affaires</p>
+                    
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                    
+                </div>
+                
+                <div class="service-card theme-selector">
+                    <p class="card-title">négociation commerciale</p>
+                    
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+                <div class="service-card theme-selector">
+                    <p class="card-title">Service client</p>
+                    
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+                 <div class="service-card theme-selector">
+                    <p class="card-title">Analyse de marché</p>
+                    
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+                 <div class="service-card theme-selector">
+                    <p class="card-title">Prévision de vente</p>
+                    
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="formation">
+            <i class="limiteur"></i>
+            <h1 class="title">Formations</h1>
+            <div class="contenu-formation d-flex ">
+                <div class="formation theme-selector">
+                    <h5 class="color annee" id="f-5">2025-2026</h5>
+                    <p>👨🏿‍🎓  Licence 3 de comptabilité (en cours)</p>
+                    <p>🏫 Ecole Normal Superieur d'Enseignement Technique (ENSET)</p>
+                    <p>  📍 Benin Lokossa</p>
+                </div>              
+                <div class="formation theme-selector">
+                    <h5 class="color annee" id="f-4">2024-2025</h5>
+                    <p>👨🏿‍🎓  Licence 2 de comptabilité</p>
+                    <p>🏫 Ecole Normal Superieur d'Enseignement Technique (ENSET)</p>
+                    <p>  📍 Benin Lokossa</p>
+                </div>
+                <div class="formation theme-selector">
+                    <h5 class="color annee" id="f-3">2023-2024</h5>
+                    <p>👨🏿‍🎓 Licence 1 de comptabilité</p>
+                    <p>🏫  Ecole Normal Superieur d'Enseignement Techniquer (ENSET)</p>
+                    <p>📍Benin Lokossa</p>
+                </div>
+                <div class="formation theme-selector">
+                    <h5 class="color annee" id="f-2">2022-2023</h5>
+                    <p>👨🏿‍🎓 Baccalaurat</p>
+                    <P>🏫  Collège d'Enseignement Général 2 (CEG 2)</P>
+                    <p> 📍Benin Bohicon</p>
+                </div>
+                <div class="formation theme-selector ">
+                    <h5 class="color annee" id="f-1">2019-2020</h5>
+                    <p>👨🏿‍🎓 Brevet d'Etude du Premier Cycle (BEPC)</p>
+                    <p>📍Benin</p>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <i class="limiteur"></i>
+            <h1 class="title">Experience proffessionnelle</h1>
+            
+            <div class=" exps d-flex flex-column gap-5 stage-container">
+                <div class="exp  d-flex flex-column flex-lg-row w-100  justify-content-between align-items-center">
+                    <div class="exp-img w-100 w-lg-25">
+                        <img src="images/stage-image.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="mx-lg-5">
+                        <h4 class="titre color stage-title">STAGE AU CABINET COMPTABLE ET FISCAL ADONA DE THERMO CONSULTING</h4>
+                        <p>📆 Juillet 2024 – Août 2024</p>
+                        <div>
+                            <h4 class="color">Activité mennée</h4>
+                            <ul>
+                                <li>Tenue journalière de la comptabilité</li>
+                                <li>Participation aux travaux de déclaration de TVA</li>
+                                <li>Déclaration d’AIB</li>
+                                <li>Émission de la facture normalisée</li>
+                                <li>Demande d’attestation CNSS</li>
+                                <li>Enregistrement des contrats sur la plateforme e-services</li>
+                                <li>Imputation et enregistrement des pièces comptables</li>
+                                <li>Assistance pour l’élaboration d’états financiers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="exp  d-flex flex-column flex-lg-row w-100  justify-content-between align-items-center">
+                    <div class="exp-img w-100 w-lg-25">
+                        <img src="images/stage-image.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="mx-lg-5">
+                        <h4 class="titre color stage-title">STAGE AU CABINET MINTHE CONSULT – ASSISTANCE EN GESTION DES ENTREPRISES</h4>
+                        <p>📆 Juillet 2025 – Août 2025</p>
+                        <div>
+                            <h4 class="color">Activité mennée</h4>
+                            <ul>
+                                <li>Tenue journalière de la comptabilité</li>
+                                <li>Participation aux travaux de déclaration de TVA</li>
+                                <li>Déclaration d’AIB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="commentaire" class="d-flex flex-column align-items-center" action="">
+            <i class="limiteur"></i>
+            <h1 class="title" id="titre-com">Commentaire</h1>
+            <p style="text-align: center;">découvrez ce que pensent mes clients de moi ou laisser votre avis</p>
+            <div class="contenu-com" id="contenu-com">         
+                <div class="com">
+                    <div class="com-profil">
+                        <img src="images/boule.png" alt="" class="img-fluid">
+                        <span class="com-name">commentaire1</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, ab?</p>
+                </div>
+                <div class="com">
+                    <div class="com-profil">
+                        <img src="images/boule.png" alt="" class="img-fluid">
+                        <span class="com-name">commentaire2</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, ab?</p>
+                </div>
+                <div class="com">
+                    <div class="com-profil">
+                        <img src="images/boule.png" alt="">
+                        <span class="com-name">commentaire3</span>
+                    </div>
+                    <p id="c3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit a alias, provident similique quaerat quibusdam laborum magnam sunt pariatur mollitia consequatur quo veniam saepe et excepturi assumenda sed optio quia.</p>
+                </div>
+                <div class="com">
+                    <div class="com-profil">
+                        <img src="images/boule.png" alt="">
+                        <span class="com-name">commentaire4</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit a alias, provident similique quaerat quibusdam laborum magnam sunt pariatur mollitia consequatur quo veniam saepe et excepturi assumenda sed optio quia.</p>
+                </div>
+                <div class="com">
+                    <div class="com-profil">
+                        <img src="images/boule.png" alt="">
+                        <span class="com-name">commentaire5</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit a alias, provident similique quaerat quibusdam laborum magnam sunt pariatur mollitia consequatur quo veniam saepe et excepturi assumenda sed optio quia.</p>
+                </div>
+                <div class="com">
+                    <div class="com-profil">
+                        <img src="images/boule.png" alt="">
+                        <span class="com-name">commentaire6</span>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit a alias, provident similique quaerat quibusdam laborum magnam sunt pariatur mollitia consequatur quo veniam saepe et excepturi assumenda sed optio quia.</p>
+                </div>
+            </div>
+            <div class="alert alert-warning alert-dismissible" role="alert">
+                            <span>Connectez-vous pour laisser un commentaire</span>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close" ></button>
+                        </div>
+            <form action="" method="post">
+                <div class=" leave-com w-50 submit d-flex gap-2">
+                    <img src="images/fi-sr-user.svg" alt="">
+                    <textarea name="user-com" id="" placeholder="Dites-moi ce que vous pensez" class="theme-selector"></textarea>
+                    <button type="submit" class="submit"><img src="images/paper-plane.svg" alt="send"  class="send-logo"></button>
+                </div>
+                <div class="rating">
+                    <input type="radio" name="star-rating" id="star5" value="5">
+                    <label for="star5" title="5 star" class="label-star"></label>
+                    <input type="radio" name="star-rating" id="star4" value="4">
+                    <label for="star4" title="4 star" class="label-star"></label>
+                    <input type="radio" name="star-rating" id="star3" value="3">
+                    <label for="star3" title="3 star" class="label-star"></label>
+                    <input type="radio" name="star-rating" id="star2" value="2">
+                    <label for="star2" title="2 star" class="label-star"></label>
+                    <input type="radio" name="star-rating" id="star1" value="1" checked>
+                    <label for="star1" title="1 star" class="label-star"></label>
+                </div>
+            </form>
+        </section>
+        <section id="contact">
+            <i class="limiteur"></i>
+            <h1 class="title">Contact</h1>
+            <div class="contenu-contact d-flex flex-column flex-lg-row align-items-start justify-content-around">
+                <div class="social-link m-lg-2">
+                    <h4 class="color">Réseaux sociaux</h4>
+                    <a href="www.facebook.com">
+                         <img src="images/facebook-f.svg" alt="facebook" class="logo">
+                        visiter ma page facebook
+                    </a>
+                    <span>
+                        <img src="images/whatsapp.svg" alt="" srcset="" class="logo">
+                        whatsapp +229 0190107436
+                    </span>
+                    <a href="tel:+2290190107436">
+                        <svg  class="logo" fill="white" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>ionicons-v5-g</title><path d="M478.94,370.14c-5.22-5.56-23.65-22-57.53-43.75-34.13-21.94-59.3-35.62-66.52-38.81a3.83,3.83,0,0,0-3.92.49c-11.63,9.07-31.21,25.73-32.26,26.63-6.78,5.81-6.78,5.81-12.33,4-9.76-3.2-40.08-19.3-66.5-45.78s-43.35-57.55-46.55-67.3c-1.83-5.56-1.83-5.56,4-12.34.9-1.05,17.57-20.63,26.64-32.25a3.83,3.83,0,0,0,.49-3.92c-3.19-7.23-16.87-32.39-38.81-66.52-21.78-33.87-38.2-52.3-43.76-57.52A3.9,3.9,0,0,0,138,32.2,322.35,322.35,0,0,0,82,57.65,338,338,0,0,0,33.35,92a3.83,3.83,0,0,0-1.26,3.74c2.09,9.74,12.08,50.4,43.08,106.72,31.63,57.48,53.55,86.93,100,133.22S252,405.21,309.54,436.84c56.32,31,97,41,106.72,43.07a3.86,3.86,0,0,0,3.75-1.26A337.73,337.73,0,0,0,454.35,430a322.7,322.7,0,0,0,25.45-56A3.9,3.9,0,0,0,478.94,370.14Z"></path></g></svg>                      
+                        appelez-moi sur +22290190107436
+                    </a>
+                    <a href="http://linkind.com">
+                        <img src="images/linkedin-in.svg" class="logo" alt="" srcset="">
+                        joignez-moi sur linkedIn
+                    </a>
+                    
+                </div>
+                <div class="send-message w-50 d-flex flex-column">
+                    <h4 class="color text-center">Envoyez moi un message</h4>
+                     <div class="alert alert-warning alert-dismissible" role="alert">
+                            <span>Vous ne pouvez pas envoyer de message en mode visiteur, connectez-vous pour envoyer un message</span>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close" ></button>
+                        </div>
+                    <form action="" method="post" class=" leave-message d-flex align-items-center gap-2 justify-content-center">
+                        <!-- <div class="com-profil w-100">
+                            <img src="images/user-circle.svg" alt="" class="img-fluid visitor-img">
+                            <strong class="com-name">Visiteur</strong>
+                        </div> -->
+                        <div class="message-area">
+                            
+                        </div>
+                        <div class="d-flex g-2 align-items-center w-100">
+                            <textarea name="user-com" id="message-text" placeholder="Vous pouver me laisser un message ici" rows="1" class="theme-selector"></textarea>
+                            <button type="submit" id="submit-message" class="submit"><img src="images/planer-blue.svg" alt="send" ></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="mobile-footer">
+                <i>dernière mise a jour: 2025</i>
+           </div>
+
+    </main>
+    <script src="elvis.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

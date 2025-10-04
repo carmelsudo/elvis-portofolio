@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+</head>
+<style>
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        min-height: 100vh;
+    }
+    header,.cat{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        
+        
+    }
+    .youtube-logo{
+        max-width:20%;
+        border: 1px solid red;
+    }
+    .icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    ul,li{
+        list-style: none;
+        
+    }
+    .cat{
+        padding: 0;
+        overflow: scroll;
+    }
+    .cat li{
+        background-color: #f3f3f3;
+        padding: 10px;
+        border-radius: 10px ;
+        margin: 5px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 5px;
+    }
+    .short{
+        display: grid;
+        grid-template-columns: repeat(2,48%);
+        justify-content: space-around;
+        align-items: stretch;
+        /* gap: 10px; */
+    }
+    .short div{
+        border-radius: 10px;
+        height: 30vh;
+        overflow: hidden    ;
+    }
+     .short div img{
+        width: 100%;
+        height: 100%;
+     }
+     .long-video{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 50px;
+     }
+     .video{
+   
+        width: 100%;
+        height: 30vh;
+        border-radius: 10px;
+        /* overflow: hidden; */
+
+     }
+     .video img{
+        width: 100%;
+        height: 70%;
+         border-radius: 10px;
+     }
+     .video-data, .video-oth{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+
+
+     }
+     .video-oth img{
+        width: 10%;
+        border-radius: 50%;
+        
+     }
+     .video-data div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+     }
+     .video-oth{
+        justify-content: space-between;
+        
+     }
+     .video-oth div{
+        display: flex;
+        align-items: center;
+        gap: 5px ;       
+     }
+      .video-oth div img{
+        width: 15%;
+      }
+     strong{
+        font-size: 0.9rem;
+     }
+     button{
+        padding: 10px;
+        background-color: rgb(236, 56, 56);
+        color: white;
+        border: none;
+        border-radius: 10px;
+     }
+     nav{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 10vh;
+        padding: 0;
+     }
+     .nav-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        padding:  0 10px;
+        background-color: #f3f3f3;
+     }
+     .nav-ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8rem;
+        font-weight: lighter;
+     }
+      .nav-ul li span{
+         font-size: 0.8rem;
+        font-weight: lighter;
+      }
+.userMode {
+  display: block;
+  height: 50px;
+
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 2px;
+  margin: 10px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: focus;
+  transition: background-image 0.5s ease-in;
+  background-image: url(images/lightBackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.switch {
+  height: 25px;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  clip-path: circle();
+  transform: translateX(15px);
+  transition: all 0.5s ease-in;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-ul">
+                <li>H
+                    <span>Home</span>
+                </li>
+                <li>S
+                    <span>Short</span>
+                </li>
+                <li>+</li>
+                <li>A
+                    <span>Subscription</span>
+                </li>
+                <li>Y
+                    <span>You</span>
+                </li>
+            </ul>
+        </nav>
+        <div class="youtube-logo">
+            <span>YOUTUBE</span>
+        </div>
+        <ul class="icon">
+            <li>caster</li>
+            <li>notif</li>
+            <li>rechercher</li>
+        </ul>
+    </header>
+    <main>
+        <ul class="cat">
+            <li>sport</li>
+            <li>jeux</li>
+            <li>film</li>
+            <li>serie</li>
+            <li>documentaire</li>
+            <li>manga</li>
+        </ul>
+        <section class="short">
+            <div><img src="images/elvis-photo.png" alt="" srcset=""></div>
+            <div><img src="images/elvis-photo.png" alt="" srcset=""></div>
+        </section>
+        <section class="long-video">
+            <div class="video">
+                <img src="images/elvis-photo.png" alt="" srcset="">
+                <div class="video-info">
+                    
+                    <div class="video-data">
+                        <div>
+                            <strong>Pourquoi la terre est-elle ronde ?</strong>
+                            <p style="font-size: 0.9rem;">1M vues il y a 17 m.</p>
+                        </div>
+                    </div>
+                   <div class="video-oth">
+                        <div>
+                            <img src="images/boule.png" alt="" srcset="">
+                            <strong>Science Trash</strong>
+                        </div>
+                         <button type="button" >S'abonner</button>
+                   </div>
+                </div>
+            </div>
+
+            <div class="video">
+                <img src="images/elvis-photo.png" alt="" srcset="">
+                <div class="video-info">
+                    
+                    <div class="video-data">
+                        <div>
+                            <strong>Pourquoi la terre est-elle ronde ?</strong>
+                            <p style="font-size: 0.9rem;">1M vues il y a 17 m.</p>
+                        </div>
+                    </div>
+                   <div class="video-oth">
+                        <div>
+                            <img src="images/boule.png" alt="" srcset="">
+                            <strong>Science Trash</strong>
+                        </div>
+                         <button type="button" >S'abonner</button>
+                   </div>
+                </div>
+            </div>
+
+            <div class="video">
+                <img src="images/elvis-photo.png" alt="" srcset="">
+                <div class="video-info">
+                    
+                    <div class="video-data">
+                        <div>
+                            <strong>Pourquoi la terre est-elle ronde ?</strong>
+                            <p style="font-size: 0.9rem;">1M vues il y a 17 m.</p>
+                        </div>
+                    </div>
+                   <div class="video-oth">
+                        <div>
+                            <img src="images/boule.png" alt="" srcset="">
+                            <strong>Science Trash</strong>
+                        </div>
+                         <button type="button" >S'abonner</button>
+                   </div>
+                </div>
+            </div>
+
+            <div class="video">
+                <img src="images/elvis-photo.png" alt="" srcset="">
+                <div class="video-info">
+                    
+                    <div class="video-data">
+                        <div>
+                            <strong>Pourquoi la terre est-elle ronde ?</strong>
+                            <p style="font-size: 0.9rem;">1M vues il y a 17 m.</p>
+                        </div>
+                    </div>
+                   <div class="video-oth">
+                        <div>
+                            <img src="images/boule.png" alt="" srcset="">
+                            <strong>Science Trash</strong>
+                        </div>
+                         <button type="button" >S'abonner</button>
+                   </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="userMode">
+                    <p class="switch"></p>
+                </div>
+</body>
+</html>
